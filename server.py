@@ -18,7 +18,7 @@ socketio = SocketIO(app, cors_allowed_origins='*', async_mode='threading')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['MEDIA_FOLDER'],  exist_ok=True)
 
-AUTH_TOKEN = os.environ.get('SYNCBRIDGE_TOKEN', 'syncbridge-token-2024')
+AUTH_TOKEN = os.environ.get('SYNCBRIDGE_TOKEN', 'nW6g8QfPqX9vY2ZtB1rLmK7cD3sJ5UeH8xA4pN0wR6yTzC9v')
 PORT       = int(os.environ.get('SYNCBRIDGE_PORT', 5000))
 
 # ── State ─────────────────────────────────────────────────────────────────────
